@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "greet": "nodemon ./tasks/04-greet.js",
+    "bmi": "nodemon ./tasks/03-bmi.js",
     "evenornot": "nodemon ./tasks/02-EvenOrNot.js",
     "first": "nodemon ./tasks/01-first.js",
     "test": "echo \"Error: no test specified\" && exit 1"
