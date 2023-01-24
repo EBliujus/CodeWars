@@ -22,3 +22,6 @@ function getPlanetName(id){
         return 'Neptune';
     }
   }
+  console.log(getPlanetName(2), 'Venus');
+  console.log(getPlanetName(5), 'Jupiter');
+  console.log(getPlanetName(3), 'Earth');
