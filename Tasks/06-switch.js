@@ -27,10 +27,8 @@ function switchItUp(number) {
 }
 }
 
-
-
-console.log(switchItUp(1),"One");
-console.log(switchItUp(3),"Three");
-console.log(switchItUp(2),"Two");
-console.log(switchItUp(4),"Four");
-console.log(switchItUp(6),"Six");
+console.log(switchItUp(1),'-->', "One");
+console.log(switchItUp(3),'-->', "Three");
+console.log(switchItUp(2),'-->', "Two");
+console.log(switchItUp(4),'-->', "Four");
+console.log(switchItUp(6),'-->', "Six");

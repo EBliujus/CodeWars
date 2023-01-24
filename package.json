@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "planets": "nodemon ./tasks/08-planets.js",
     "fathersage": "nodemon ./tasks/07-fathersage.js",
     "switch": "nodemon ./tasks/06-switch.js",
     "convert": "nodemon ./tasks/05-convert.js",
