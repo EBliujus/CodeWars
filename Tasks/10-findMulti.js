@@ -18,3 +18,6 @@ function findMultiples(integer, limit) {
 
 
   console.log('--------------');
+
+  
+

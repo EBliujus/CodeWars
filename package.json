@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "cubanoids": "nodemon ./tasks/11-cubanoids.js",
     "findMulti": "nodemon ./tasks/10-findMulti.js",
     "array-includes": "nodemon ./tasks/09-array-includes.js",
     "planets": "nodemon ./tasks/08-planets.js",

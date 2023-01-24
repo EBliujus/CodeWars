@@ -1,5 +1,7 @@
 console.clear()
 
+// https://www.codewars.com/kata/57a429e253ba3381850000fb
+
 function bmi(weight, height) {
     if (weight/height**2 <= 18.5) {
         return 'Underweight';
@@ -15,7 +17,7 @@ function bmi(weight, height) {
     console.log(bmi(80, 1.80),'-->', "Normal");
     console.log(bmi(90,1.50),'-->', "Obese");
     console.log(bmi(30,1.50),'-->', "Underweight");
-    console.log(bmi(110, 2.00),'-->', "Overweight");
+    console.log(bmi(105, 2.00),'-->', "Overweight");
 
 
 
