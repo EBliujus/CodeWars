@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "array-includes": "nodemon ./tasks/09-array-includes.js",
     "planets": "nodemon ./tasks/08-planets.js",
     "fathersage": "nodemon ./tasks/07-fathersage.js",
     "switch": "nodemon ./tasks/06-switch.js",
