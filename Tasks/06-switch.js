@@ -1,13 +1,31 @@
 console.clear()
-const number = 0;
 
-function switchItUp(number)
- 
+function switchItUp(number) {
 
-switch (number) {
-   if (Input.number) 
+   switch (number) {
+      case 0:
+         return 'zero';
+      case 1:
+         return 'one';
+      case 2:
+         return 'two';  
+      case 3:
+         return 'three';
+      case 4:
+         return 'four';
+      case 5:
+         return 'five';
+      case 6:
+         return 'six';
+      case 7:
+         return 'seven';
+      case 8: 
+         return 'eitgh';
+      case 9:
+         return 'nine';
 }
-return 'one';
+}
+
 
 
 console.log(switchItUp(1),"One");
@@ -15,5 +33,3 @@ console.log(switchItUp(3),"Three");
 console.log(switchItUp(2),"Two");
 console.log(switchItUp(4),"Four");
 console.log(switchItUp(6),"Six");
-console.log(switchItUp(10),"Ten");
-console.log(switchItUp(11),"Eleven");
