@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "switch": "nodemon ./tasks/06-switch.js",
     "convert": "nodemon ./tasks/05-convert.js",
     "greet": "nodemon ./tasks/04-greet.js",
     "bmi": "nodemon ./tasks/03-bmi.js",
