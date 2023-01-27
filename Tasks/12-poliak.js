@@ -7,14 +7,12 @@ correctPolishLetters = string => string.replace(/ąćęłńóśźż/g, replacer 
 
 function correctPolishLetters (string) {
     
-    // let str = ąćęłńóśźż;
-    // const newstr = string.replace(/ąćęłńóśźż/i, "acelnoszz");
-    console.log(string)
+  return string.replace(/ąćęłńóśźż/gi, 'acelnoszz');
   }
 
-// console.log(correctPolishLetters("Jędrzej Błądziński"),"Jedrzej Bladzinski")
-// console.log(correctPolishLetters("Lech Wałęsa"),"Lech Walesa")
-// console.log(correctPolishLetters("Maria Skłodowska-Curie"),"Maria Sklodowska-Curie")
+console.log(correctPolishLetters("Jędrzej Błądziński"),'-->', "Jedrzej Bladzinski")
+console.log(correctPolishLetters("Lech Wałęsa"), '-->', "Lech Walesa")
+console.log(correctPolishLetters("Maria Skłodowska-Curie"), '-->', "Maria Sklodowska-Curie")
 
 
 function replacer(match, p1, p2, p3, offset, string) {

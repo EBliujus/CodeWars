@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "drinks": "nodemon ./tasks/16-drinks.js",
+    "replace": "nodemon ./tasks/15-replace.js",
     "bullets": "nodemon ./tasks/14-bullets.js",
     "age": "nodemon ./tasks/13-age.js",
     "poliak": "nodemon ./tasks/12-poliak.js",
