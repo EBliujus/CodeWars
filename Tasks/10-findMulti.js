@@ -35,11 +35,4 @@ function findMultiples(integer, limit) {
    */
   
   
-  function hero(bullets, dragons){
-  
-    if (bullets * 2 >= dragons) {
-      return true;
-    } else if (bullets * 2 <= dragons) {
-      return false;
-    }
-  }
+ 

@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "bullets": "nodemon ./tasks/14-bullets.js",
     "age": "nodemon ./tasks/13-age.js",
     "poliak": "nodemon ./tasks/12-poliak.js",
     "cubanoids": "nodemon ./tasks/11-cubanoids.js",
