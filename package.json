@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "age": "nodemon ./tasks/13-age.js",
+    "poliak": "nodemon ./tasks/12-poliak.js",
     "cubanoids": "nodemon ./tasks/11-cubanoids.js",
     "findMulti": "nodemon ./tasks/10-findMulti.js",
     "array-includes": "nodemon ./tasks/09-array-includes.js",

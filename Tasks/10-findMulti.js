@@ -20,4 +20,26 @@ function findMultiples(integer, limit) {
   console.log('--------------');
 
   
+/* 
+  function tripleTrouble(one, two, three) {
+    
+   }
+   console.log(a[one, two, three].copywithin(-2))
+ 
 
+  console.log(tripleTrouble("aaa","bbb","ccc"), "abcabcabc");
+  console.log(tripleTrouble("aaaaaa","bbbbbb","cccccc"), "abcabcabcabcabcabc");
+  console.log(tripleTrouble("burn", "reds", "roll"), "brrueordlnsl");
+  console.log(tripleTrouble("Sea","urn","pms"), "Supermans"); 
+  console.log(tripleTrouble("LLh","euo","xtr"), "LexLuthor");
+   */
+  
+  
+  function hero(bullets, dragons){
+  
+    if (bullets * 2 >= dragons) {
+      return true;
+    } else if (bullets * 2 <= dragons) {
+      return false;
+    }
+  }
