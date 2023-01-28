@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "generator": "nodemon ./tasks/18-generator.js",
+    "sum": "nodemon ./tasks/17-sum.js",
     "drinks": "nodemon ./tasks/16-drinks.js",
     "replace": "nodemon ./tasks/15-replace.js",
     "bullets": "nodemon ./tasks/14-bullets.js",

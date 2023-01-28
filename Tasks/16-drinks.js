@@ -18,20 +18,20 @@
 
 function getDrinkByProfession(param){
     
-    if (param.toLowerCase == ("Jabroni")){
+    if ("Jabroni"){
     return "Patron Tequila";
-  } if (param.toLowerCase === "School Counselor") {
+  } if ("School Counselor") {
     return "Anything with Alcohol";
-  } if (param.toLowerCase === "Programmer") {
+  } if ("Programmer") {
     return "Hipster Craft Beer";
-  } if (param.toLowerCase === "Bike Gang Member") {
+  } if ("Bike Gang Member") {
     return "Moonshine";
-  } if (param.toLowerCase === "Politician") {
+  } if ("Politician") {
     return "Your tax dollars";
-  } if (param.toLowerCase === "Rapper"){
+  } if ("Rapper"){
     return "Cristal";
   } else {
-    return "Beer".toLowerCase != "Beer";
+    return "Beer";
   }
   }
 
